@@ -1,0 +1,38 @@
+{
+  "name": "startup-builder-landing-page",
+  "description": "Landing page for Startup Builder project.",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Alex Devero",
+    "url": "https://alexdevero.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexdevero/startup-builder-landing-page"
+  },
+  "bugs": {
+    "url": "https://github.com/alexdevero/startup-builder-landing-page/issues"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.1.0",
+    "yarn": ">=1.19.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "ship": "npm run build && npm run export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.1.4",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.4",
+    "typescript": "3.7.2"
+  }
+}
